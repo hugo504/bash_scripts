@@ -1,6 +1,7 @@
 #!/bin/bash
 online="online_host.txt"
-for i in 10.93.163.{196..255}
+
+for i in XX.XXX.XX.{196..255} # Replace by base ip address
 do
 ping -c 1 $i
 if [ $? -eq 0 ]; then
